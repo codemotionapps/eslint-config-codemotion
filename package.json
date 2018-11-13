@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-codemotion",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:codemotionapps/eslint-config-codemotion.git",
+  "author": "Dimitar Nestorov <opensource@dimitarnestorov.com> (https://dimitarnestorov.com/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=4"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "parser": "espree",
+    "extends": [
+      "./error.js",
+      "./extra/error/oldNode.js"
+    ],
+    "settings": {
+      "react": {
+        "version": "16.6.0"
+      }
+    }
+  },
+  "eslintIgnore": [
+    "node_modules"
+  ]
+}

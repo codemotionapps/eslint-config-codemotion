@@ -27,7 +27,12 @@
     "extends": [
       "./error.js",
       "./extra/error/oldNode.js"
-    ]
+    ],
+    "settings": {
+      "react": {
+        "version": "latest"
+      }
+    }
   },
   "eslintIgnore": [
     "node_modules"

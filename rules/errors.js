@@ -16,7 +16,12 @@ module.exports = {
 	'no-empty-character-class': 'warn',
 	'no-ex-assign': 'warn',
 	'no-extra-boolean-cast': 'warn',
-	'no-extra-parens': ['warn', 'all', { ignoreJSX: 'multi-line' }],
+	'no-extra-parens': ['warn', 'all', {
+		nestedBinaryExpressions: false,
+		returnAssign: false,
+		conditionalAssign: false,
+		ignoreJSX: 'multi-line',
+	}],
 	'no-extra-semi': 'warn',
 	'no-func-assign': 'warn',
 	'no-invalid-regexp': 'warn',

@@ -15,7 +15,7 @@ module.exports = {
 	'react/jsx-indent-props': ['warn', 'tab'],
 	'react/jsx-key': 'warn',
 	'react/jsx-max-depth': 'off',
-	'react/jsx-max-props-per-line': ['warn', { maximum: 3, when: 'always' }],
+	'react/jsx-max-props-per-line': ['warn', { maximum: 1, when: 'multiline' }],
 	'react/jsx-no-bind': 'warn',
 	'react/jsx-no-comment-textnodes': 'warn',
 	'react/jsx-no-duplicate-props': 'warn',

@@ -24,7 +24,7 @@ module.exports = {
 	'react/jsx-no-undef': 'error',
 	'react/jsx-one-expression-per-line': ['warn', { allow: 'single-child' }],
 	'react/jsx-curly-brace-presence': ['warn', { props: 'never', children: 'ignore' }],
-	'react/jsx-pascal-case': 'warn',
+	'react/jsx-pascal-case': ['warn', { allowAllCaps: true }],
 	'react/jsx-props-no-multi-spaces': 'warn',
 	'react/jsx-sort-default-props': 'off',
 	'react/jsx-sort-props': ['warn', {

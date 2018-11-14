@@ -59,7 +59,7 @@ module.exports = {
 	'no-useless-concat': 'warn',
 	'no-useless-escape': 'warn',
 	'no-useless-return': 'warn',
-	'no-void': 'warn',
+	'no-void': 'off',
 	'no-with': 'warn',
 	'prefer-promise-reject-errors': 'warn',
 	radix: 'warn',

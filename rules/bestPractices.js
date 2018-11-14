@@ -1,7 +1,7 @@
 module.exports = {
 	'array-callback-return': 'warn',
 	'block-scoped-var': 'warn',
-	'class-methods-use-this': 'warn',
+	'class-methods-use-this': ['warn', { exceptMethods: ['render'] }],
 	complexity: 'warn',
 	'consistent-return': 'warn',
 	curly: ['warn', 'multi-line'],

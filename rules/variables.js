@@ -7,6 +7,9 @@ module.exports = {
 	'no-undef': 'error',
 	'no-undef-init': 'warn',
 	'no-undefined': 'warn',
-	'no-unused-vars': 'warn',
+	'no-unused-vars': ['warn', {
+		args: 'all',
+		argsIgnorePattern: '^_',
+	}],
 	'no-use-before-define': ['warn', 'nofunc'],
 }

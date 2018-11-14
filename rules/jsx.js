@@ -2,7 +2,7 @@ module.exports = {
 	'react/jsx-boolean-value': ['warn', 'never'],
 	'react/jsx-child-element-spacing': 'off',
 	'react/jsx-closing-bracket-location': ['warn', 'line-aligned'],
-	'react/jsx-closing-tag-location': 'warn',
+	'react/jsx-closing-tag-location': 'off',
 	'react/jsx-curly-spacing': ['warn', { when: 'never' }],
 	'react/jsx-equals-spacing': ['warn', 'never'],
 	'react/jsx-filename-extension': 'off',

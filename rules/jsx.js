@@ -22,7 +22,7 @@ module.exports = {
 	'react/jsx-no-literals': 'off',
 	'react/jsx-no-target-blank': 'warn',
 	'react/jsx-no-undef': 'error',
-	'react/jsx-one-expression-per-line': ['warn', { allow: 'single-child' }],
+	'react/jsx-one-expression-per-line': ['off', { allow: 'single-child' }],
 	'react/jsx-curly-brace-presence': ['warn', { props: 'never', children: 'ignore' }],
 	'react/jsx-pascal-case': ['warn', { allowAllCaps: true }],
 	'react/jsx-props-no-multi-spaces': 'warn',
